@@ -1,0 +1,7 @@
+Install knex and sqllite 3
+Run knex init to create knex file
+
+in Knex object's development object set connection's filename value to point to database
+set useNullAsDefault to true
+
+then run command >>>> knex migrate:make <name-of-database-table-here>
